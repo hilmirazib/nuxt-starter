@@ -1,5 +1,5 @@
 <template>
-  <div><Alert /> <Profile /></div>
+  <div>Avatar Header</div>
 </template>
 
 <script setup lang="ts"></script>
