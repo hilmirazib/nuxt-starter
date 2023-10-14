@@ -7,6 +7,11 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { onClickOutside } from "@vueuse/core";
+
+const { sayHello } = useUtils();
+sayHello();
+</script>
 
 <style scoped></style>
