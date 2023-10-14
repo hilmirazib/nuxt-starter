@@ -12,6 +12,9 @@ import { onClickOutside } from "@vueuse/core";
 
 const { sayHello } = useUtils();
 sayHello();
+
+const { $sayHello } = useNuxtApp();
+$sayHello("halo ini saya hilmi");
 </script>
 
 <style scoped></style>
